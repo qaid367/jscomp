@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="square1" class="box" onclick="changeColor(this.id)"></div>
+      <div id="square2" class="box" onclick="changeColor(this.id)"></div>
+      <div id="square3" class="box" onclick="changeColor(this.id)"></div>
+    </div>
+    <div id="buttons">
+      <button onclick="changeColor('square1')" class="button">Square 1</button>
+      <button onclick="changeColor('square2')" class="button">Square 2</button>
+      <button onclick="changeColor('square3')" class="button">Square 3</button>
+    </div>
+    <div id="grid">
+      <div class="flash" id="flash1"></div>
+      <div class="flash" id="flash2"></div>
+      <div class="flash" id="flash3"></div>
+      <div class="flash" id="flash4"></div>
+      <div class="flash" id="flash5"></div>
+      <div class="flash" id="flash6"></div>
+      <div class="flash" id="flash7"></div>
+      <div class="flash" id="flash8"></div>
+      <div class="flash" id="flash9"></div>
+    </div>
+    <!-- <button id="stopButton" stop="false">Stop Interval</button> -->
+  </body>
+</html>
